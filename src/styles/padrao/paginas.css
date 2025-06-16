@@ -1,0 +1,119 @@
+a {
+    color: var(--cor-contraste);
+}
+
+a:hover {
+    color: var(--cor-link-especifico);
+    text-decoration: none;
+}
+
+.cabecalho-paginas {
+    padding: 1rem 0;
+}
+
+.pratica {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.pratica p {
+    font-size: 1.85rem;
+}
+
+.caixa {
+    padding: 4rem;
+}
+
+.conteudo h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+.conteudo h3 {
+    font-size: 1.25rem;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 2.5rem;
+    background-color: var(--cor-amarela);
+    border-radius: 3rem;
+    color: var(--cor-amarela-texto);
+    border: 1px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #88750b46;
+}
+
+button:hover {
+    background-color: var(--cor-amarela-secundaria);
+}
+
+p {
+    font-size: 3rem;
+    background-color: var(--cor-contraste-sec);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 5px 15px 25px #88750b2a;
+    color: var(--cor-amarela-texto);
+}
+
+.bt-proximo a {
+    color: var(--cor-texto);
+    border: 1px solid var(--cor-texto);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+.bt-proximo a:hover {
+    color: var(--cor-link);
+    border: 1px solid var(--cor-link);
+}
+
+.bt-proximo {
+    text-align: right;
+    margin: 0 2rem 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .cabecalho-paginas {
+        padding: 0;
+    }
+
+    .caixa {
+        padding: 1rem 0;
+    }
+
+    .conteudo h2 {
+        font-size: 1.5rem;
+        margin: 1rem 0 .5rem 0;
+    }
+
+    .conteudo h3 {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1.65rem;
+    }
+
+    p {
+        padding: 2rem;
+        line-height: 1.2;
+    }
+
+    .pratica p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .bt-proximo {
+        margin-top: 3rem;
+        text-align: center;
+        width: 100%;
+    }
+}

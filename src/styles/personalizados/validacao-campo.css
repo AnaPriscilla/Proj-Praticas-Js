@@ -1,0 +1,50 @@
+.pratica {
+    margin: 0;
+}
+.pratica p {
+    box-shadow: none;
+    background-color: var(--cor-contraste);
+}
+
+.item-validacao {
+    background-color: rgb(253, 249, 222);
+    border-radius: 1rem;
+    padding: 2rem 5rem;
+}
+
+.item-validacao button {
+    font-size: 1.5rem;
+}
+
+.item-validacao input {
+    padding: 1.2rem 2rem;
+    width: 18rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--cor-amarela);
+}
+
+#mensagem {
+    font-size: 2.5rem;
+    border: none;
+    margin: 0 0 1rem 0;
+}
+
+@media (max-width: 768px) {
+    #mensagem {
+        font-size: 1.3rem;
+    }
+
+    .item-validacao input {
+        padding: 1.2rem 2rem;
+        margin: 1rem 0;
+    }
+
+    .item-validacao {
+        padding: 1rem;
+    }
+
+    button {
+        width: 100%;
+    }
+
+ }

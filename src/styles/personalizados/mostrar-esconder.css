@@ -1,0 +1,55 @@
+#texto, .escondido {
+            display: none;
+        }
+
+        #texto, #texto2 {
+            font-size: 1.2rem;
+        }
+
+        .pratica .item {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            justify-content: center;
+        }
+
+        .item-1 {
+            margin-right: 2rem;
+        }
+
+        .item-1 button {
+            background-color: turquoise;
+            color: #fff;
+        }
+
+        .item-1 button:hover {
+            background-color: rgb(86, 231, 217);
+        }
+
+            button {
+            padding: 1rem 3rem;
+            font-size: 2.5rem;
+      
+            border-radius: 3rem;
+
+            border: 1px;
+            cursor: pointer;
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.205);
+        }
+
+
+@media (max-width: 768px) {
+    .pratica .item {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .item-1 {
+        margin: 2rem 0;
+    }
+
+    button {
+        width: 100%;
+                font-size: 1.25rem;
+    }
+}

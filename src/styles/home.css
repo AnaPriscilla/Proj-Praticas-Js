@@ -1,0 +1,76 @@
+.cabecalho-home {
+    max-width: 100%;
+    background-color: var(--cor-cabecalho);
+    padding: 1rem 0;
+}
+
+.pratica {
+    display: flex;
+    align-items: start;
+}
+
+.conteudo h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.conteudo h3 {
+    font-size: 1.65rem;
+}
+
+.lista {
+    margin: 0 0 0 5rem;
+}
+
+.lista ol li {
+    font-size: 1.65rem;
+    margin-bottom: 0.15em;
+}
+
+.bi-box-arrow-up-right {
+    font-size: 1.5rem;
+}
+
+.chamada-linkedin {
+  text-align: center;
+  font-weight: bold;
+}
+
+.chamada-linkedin a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.chamada-linkedin a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .cabecalho-home {
+        padding: .5rem 0 0 0;
+    }
+
+    .conteudo h2 {
+        font-size: 2rem;
+        margin-bottom: .15rem;
+    }
+
+    .conteudo h3 {
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .caixa {
+        padding: 1rem;
+    }
+
+    .lista {
+        margin: 1rem 0 0 1rem;
+    }
+
+    .lista ol li {
+        font-size: 1rem;
+    }
+
+}

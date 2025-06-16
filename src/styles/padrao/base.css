@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    flex: 1;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo h1 {
+    font-size: 1.65rem;
+    color: var(--cor-contraste);
+    font-weight: 400;
+}
+
+.bi-javascript {
+    font-size: 2rem;
+    margin: 0 .25rem 0 0;
+}
+
+.conteudo {
+    width: 100%;
+    background-color: var(--cor-contraste);
+    border-radius: 2rem;
+}
+
+.conteudo h2 {
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+.conteudo h3 {
+    margin: 0 0 2rem 0;
+    font-weight: 400;
+    color: var(--cor-texto-secundario);
+}
+
+.bi-pc-display {
+    font-size: 1.5rem;
+}
+
+.bt-sobre {
+    background-color: var(--cor-amarela);
+    padding: .5rem 2rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.bt-sobre:hover {
+    background-color: var(--cor-amarela-secundaria);
+    cursor: pointer;
+}
+
+.caixa {
+    padding: 2rem;
+}
+
+.pratica img {
+    border-left: 15px solid var(--cor-link-especifico);
+    border-radius: .5rem;
+}
+
+footer {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: var(--cor-link-especifico);
+}
+
+footer h4 {
+    color: var(--cor-contraste);
+    font-weight: 400;
+    font-size: .85rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-conteudo {
+    background-color: var(--cor-contraste);
+    padding: 3rem;
+    max-width: 55rem;
+    width: 100%;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.fechar {
+    position: absolute;
+    top: .5rem;
+    right: 2rem;
+    font-size: 1.65rem;
+    cursor: pointer;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.foto {
+    width: 100%;
+    max-width: 14rem;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.col-direita ul {
+    margin-top: 1.15rem;
+}
+
+.col-direita ul li {
+    margin: 0 0 0 1rem;
+}
+
+.chamada-linkedin {
+    border: .05rem solid var(--cor-amarela-neutra);
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 7rem;
+        line-height: 1;
+        text-align: center;
+        background-color: #e2e1da;
+        padding: .5rem;
+        border-radius: .5rem .5rem 0 0 ;
+        border-bottom: 5px solid #dbdad0;
+    }
+
+    .bi-javascript {
+        line-height: 1.25;
+        font-size: 1.85rem;
+
+    }
+
+    .logo h1 {
+        font-size: .8rem;
+        color: var(--cor-texto);
+    }
+
+    .modal-conteudo {
+        max-width: 35rem;
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+
+    .modal-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .col-direita p {
+        font-size: .8rem;
+    }
+
+    .col-direita ul li {
+        font-size: .8rem;
+        list-style-type: none;
+    }
+
+    .foto {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .chamada-linkedin {
+        font-size: .85rem;
+        padding: 1rem;
+    }
+
+    main {
+        padding: 1.25rem;
+    }
+
+    .conteudo {
+        width: 90%;
+        margin: 0 1rem;
+        border-radius: 1rem;
+    }
+
+    .pratica {
+        flex-direction: column;
+    }
+
+    .pratica img {
+        width: 100%;
+        border: none;
+    }
+
+    footer h4 {
+        font-size: .8rem;
+        text-align: center;
+        margin: 0 1rem;
+    }
+}
