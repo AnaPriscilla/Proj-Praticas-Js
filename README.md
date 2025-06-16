@@ -17,9 +17,9 @@ Aqui você encontrará:
 
 ### 🐱‍💻 É isso! Praticar, praticar e praticar...
 
-### Acesse → <a href="https://praticas-js-por-anapriscilla.vercel.app/">praticas-js-por-anapriscilla.vercel.app</a>
+### Acesse → <a href="https://anapriscilla.github.io/Proj-Praticas-Js/">AnaPriscilla.github.io/Proj-Praticas-Js</a>
 
-<img src="./proj-praticas-js/src/assets/gifs/giphy.gif" alt="gatinho programando" width="300" />
+<img src="./src/assets/gifs/giphy.gif" alt="gatinho programando" width="300" />
 
 ##### Projeto de estudo pessoal 💻 Design e Desenvolvimento por: <a href="https://www.linkedin.com/in/anapriscilla/">Ana Priscilla F.</a> 
 
