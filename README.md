@@ -17,7 +17,7 @@ Aqui você encontrará:
 
 ### 🐱‍💻 É isso! Praticar, praticar e praticar...
 
-### Acesse → <a href="https://anapriscilla.github.io/Proj-Praticas-Js/">AnaPriscilla.github.io/Proj-Praticas-Js</a>
+### Acesse: <a href="https://anapriscilla.github.io/Proj-Praticas-Js/">Proj-Praticas-Js</a>
 
 <img src="./src/assets/gifs/giphy.gif" alt="gatinho programando" width="300" />
 
